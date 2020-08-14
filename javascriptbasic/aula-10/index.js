@@ -10,4 +10,6 @@ let varC = 'C';  // A = varA
 [varA, varB, varC] = [varB, varC, varA];
 
 
-console.log(`O valor de varA agora é: ${varA} O valor de varB agora é: ${varB} O valor de varC agora é: ${varC}`);
+console.log(`O valor de varA agora é: ${varA}`);
+console.log(`O valor de varB agora é: ${varB}`);
+console.log(`O valor de varC agora é: ${varC}`);
