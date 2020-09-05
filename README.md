@@ -5,7 +5,7 @@ Repositório com as aulas do curso de JavaScript e TypeScript com Profº Luiz Ot
     Conteúdos do curso: Javascript e TypeScript
 </p> 
 <p>
-   Front-End e Back-End (Full Stack):
+   Full Stack:
 </p>
 <ul>
   <li>Node</li>
