@@ -18,13 +18,37 @@
 // console.log(resto);
 
 
-const numeros = [
-    [1, 2, 3],
-    [4, 5, 6],
-    [7, 8, 9]
-];
+const pessoa = {
+    nome: 'Rafael',
+    sobrenome: 'Sousa',
+    idade: 30,
+    endereco: {
+        rua: 'Av. Brasil',
+        numero: 222
+    }
+};
 
-const [, [,,seis]] = numeros;
+const { nome, ...resto} = pessoa;
+console.log(nome, resto);
 
-console.log(numeros[1][2]);
-console.log(seis);
+
+// const { 
+//     endereco: {rua, numero}, 
+//     endereco 
+// }  = pessoa;
+// console.log(rua, numero, endereco);
+
+
+
+
+
+// const numeros = [
+//     [1, 2, 3],
+//     [4, 5, 6],
+//     [7, 8, 9]
+// ];
+
+// const [, [,,seis]] = numeros;
+
+// console.log(numeros[1][2]);
+// console.log(seis);
