@@ -1,9 +1,8 @@
 
-const nome = 'Rafael, Sousa, Pereira';
-const nomes = nome.split(', ');
-console.log(nomes);
-
-
+// const nome = 'Rafael, Sousa, Pereira';
+const nomes = [ 'Rafael', 'Sousa', 'Pereira' ];
+const nome = nomes.join(' ');
+console.log(nome);
 
 
 
